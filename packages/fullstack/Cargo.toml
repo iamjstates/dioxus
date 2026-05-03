@@ -37,7 +37,7 @@ serde_json = { workspace = true }
 pin-project = { workspace = true }
 serde_qs = { workspace = true, default-features = true}
 mime = "0.3.17"
-reqwest = { workspace = true, features = ["json", "rustls-tls", "cookies", "stream", "multipart"] }
+reqwest = { workspace = true, features = ["json", "rustls", "cookies", "stream", "multipart"] }
 url = { workspace =  true }
 serde_urlencoded = { workspace = true }
 form_urlencoded = { workspace = true }
@@ -77,7 +77,7 @@ gloo-net = "0.6.0"
 js-sys = { workspace = true }
 wasm-bindgen = { workspace = true }
 wasm-bindgen-futures = { workspace = true }
-wasm-streams = "0.4.2"
+wasm-streams = "0.5.0"
 content_disposition = "0.4.0"
 
 # native websocket deps
